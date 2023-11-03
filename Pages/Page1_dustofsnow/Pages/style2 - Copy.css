@@ -1,0 +1,102 @@
+/* FONTS ------------------------------------------------- */
+
+@font-face {
+font-family: 'Montserrat';
+src: url('./fonts/montserratalternates-regular-webfont.eot');
+src: url('./fonts/montserratalternates-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('./fonts/montserratalternates-regular-webfont.woff2') format('woff2'),
+     url('./fonts/montserratalternates-regular-webfont.woff') format('woff'),
+     url('./fonts/montserratalternates-regular-webfont.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+
+/* OVERALL ----------------------------------------------- */
+
+html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: ;
+        font-size: 18px;
+}
+
+body   {
+        background: url(Images/johannes-plenio-f6qs2DxyCN8-unsplash.jpg) no-repeat center center fixed ;
+        background-size: cover;
+        margin: 30;
+        padding: 20px;
+        max-height: 500%;        
+        display: ;
+       }
+
+h1     {
+        font-family: 'IM Fell English SC', serif;
+        font-size: 100px;
+        margin-top: 0px;
+       }
+
+h2     {
+        font-family: 'Alex Brush', cursive;
+        font-style:;
+        font-size: 50px;
+       }
+
+p1     {
+        font-family: "Montserrat";
+        margin-right: 1000px;
+        padding: 30px ;
+        font-weight: 500;
+        color: black;
+        text-shadow: 1px 1px 40px #ffffff;
+        font-size: 40px
+       }
+
+
+a {
+  color: darkslateblue;
+}
+
+
+/*  Containers------------------------- */
+
+
+.h1-container {background-color: rgba(255,255,255,.5);
+               width:inherit;
+               text-align: center;
+               border-radius: ;
+              }
+
+.h2-container {
+               text-align: center;
+              }
+
+.button       {text-align:left}
+
+button        {
+               font-size: 20px;
+               background-color: white;
+               padding: 10px;
+               width:fit-content;
+               border-radius: 10px ;
+               border: none;
+              }
+
+button:hover  {
+               font-size: 20px;
+               background-color:black;
+               padding: 10px;
+               width:fit-content;
+               border-radius: 10px; 
+               border: none;
+              }
+
+
+
+
+
+
+
+
+
